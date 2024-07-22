@@ -1,0 +1,16 @@
+.introducao {
+  margin-top: 4.375rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.introducao-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2.1875rem;
+}
+
+.introducao-conteudo p {
+  max-width: 39ch;
+}

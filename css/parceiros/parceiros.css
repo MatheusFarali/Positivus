@@ -1,0 +1,11 @@
+.parceiros {
+  display: flex;
+  gap: 5.625rem;
+  margin-top: 4.375rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.parceiros img {
+  mix-blend-mode: luminosity;
+}
