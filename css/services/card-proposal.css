@@ -1,0 +1,18 @@
+.card-proposal {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  box-shadow: inset 0rem 1.4688rem 0rem 0rem white,
+    inset 0rem -1.4688rem 0rem 0rem white;
+  margin-top: 6.25rem;
+  border-radius: 2.8125rem;
+  justify-content: space-between;
+}
+
+.card-proposal-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 5.2188rem 0rem 5.2188rem 5.2188rem;
+  max-width: 31.25rem;
+  gap: 1.625rem;
+}
