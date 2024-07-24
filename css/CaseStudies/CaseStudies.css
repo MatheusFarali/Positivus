@@ -1,0 +1,40 @@
+.CaseStudies {
+  margin-top: 8.75rem;
+}
+
+.CaseStudies h2 {
+  padding: 0rem 0.4375rem;
+  border-radius: 0.4375rem;
+}
+
+.CaseStudies .titulo p {
+  max-width: 45ch;
+}
+
+.CaseStudies-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 4.375rem 3.75rem;
+  border-radius: 2.8125rem;
+  margin-top: 5rem;
+}
+
+.CaseStudies-card p {
+  max-width: 17.875rem;
+}
+
+.CaseStudies-card-conteudo + .CaseStudies-card-conteudo {
+  padding-left: 4rem;
+  border-left: 0.0625rem solid var(--cor-0);
+}
+
+.CaseStudies-card-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.CaseStudies-card-conteudo-link {
+  display: flex;
+  gap: 0.9375rem;
+}

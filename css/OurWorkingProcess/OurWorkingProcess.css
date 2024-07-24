@@ -1,0 +1,47 @@
+.OurWorkingProcess {
+  margin-top: 140px;
+}
+
+.OurWorkingProcess h2 {
+  padding: 0rem 0.4375rem;
+  border-radius: 0.4375rem;
+}
+
+.OurWorkingProcess .titulo p {
+  max-width: 25ch;
+}
+.OurWorkingProcess-card {
+  margin-top: 80px;
+  border-radius: 45px;
+  border: 0.0625rem solid #191a23;
+  box-shadow: 0rem 0.375rem 0rem 0rem #191a23;
+  background-color: var(--cor-4);
+  padding: 41px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.active {
+  background-color: var(--cor-2);
+}
+
+.OurWorkingProcess-card-titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.OurWorkingProcess-card-titulo-text {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.OurWorkingProcess-card-titulo img,
+.OurWorkingProcess-card p {
+  display: none;
+}
+.OurWorkingProcess-cards .visible {
+  display: block;
+}

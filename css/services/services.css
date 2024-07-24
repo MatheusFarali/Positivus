@@ -2,13 +2,7 @@
   margin-top: 8.75rem;
 }
 
-.services-titulo {
-  display: flex;
-  gap: 2.5rem;
-  align-items: center;
-}
-
-.services-titulo p {
+.services .titulo p {
   max-width: 50ch;
 }
 
