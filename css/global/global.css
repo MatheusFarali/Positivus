@@ -33,7 +33,7 @@ img {
   display: block;
 }
 
-/*button {
+button {
   border: none;
   margin: 0;
   padding: 0;
@@ -46,4 +46,4 @@ img {
   -webkit-font-smoothing: inherit;
   -moz-osx-font-smoothing: inherit;
   cursor: pointer;
-}*/
+}

@@ -1,0 +1,81 @@
+.testimonials {
+  margin-top: 140px;
+  display: grid;
+}
+
+.testimonials h2 {
+  padding: 0rem 0.4375rem;
+  border-radius: 0.4375rem;
+}
+
+.testimonials .titulo p {
+  max-width: 42ch;
+}
+
+.testimonials-slider {
+  background-color: var(--cor-3);
+  border-radius: 45px;
+  margin-top: 80px;
+}
+
+.slide-card {
+  display: grid;
+  gap: 48px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.slide-texto {
+  border: 1px solid var(--cor-2);
+  border-radius: 45px;
+  padding: 48px 52px;
+  margin-top: 64px;
+  position: relative;
+}
+
+.slide-texto::before {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 48px;
+  border-width: 30px 30px 0;
+  border-style: solid;
+  border-color: var(--cor-2) transparent;
+  display: block;
+  width: 0;
+}
+
+.slide-texto::after {
+  content: "";
+  position: absolute;
+  bottom: -28px;
+  left: 49px;
+  border-width: 29px 29px 0;
+  border-style: solid;
+  border-color: var(--cor-3) transparent;
+  display: block;
+  width: 0;
+}
+
+.slide-nome {
+  margin-left: 80px;
+}
+
+.slider-passadores {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 124px;
+  margin-bottom: 68px;
+}
+
+.slider-passadores-icones {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.selecionado svg path {
+  fill: var(--cor-2);
+}
