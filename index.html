@@ -422,6 +422,40 @@
             </div>
         </div>
     </section>
+
+    <section class="contact">
+        <div class="titulo">
+            <h2 class="font-40-m bg-2">Contact Us</h2>
+            <p class="font-18-r">Connect with Us: Let's Discuss Your Digital Marketing Needs</p>
+        </div>
+        <div class="contact-form-bg bg-3">
+            <div class="contact-form">
+                <form class="contact-form-selecion font-18-r">
+                    <input type="radio" id="say" name="opcion_contact" value="Say">
+                    <label for="html">Say Hi</label>
+
+                    <input type="radio" id="get" name="opcion_contact" value="Get">
+                    <label for="css">Get a Quote</label>
+                </form>
+                <form class="contact-form-info">
+                    <div>
+                        <label for="fname">Name</label>
+                        <input type="text" id="fname" placeholder="Name">
+                    </div>
+                    <div>
+                        <label for=" email">Email*</label>
+                        <input type="email" id="email" pattern=".+@example\.com" size="30" placeholder="Email" required />
+                    </div>
+                    <div>
+                        <label for="message">Message*</label>
+                        <textarea rows="5" id="message" name="message" placeholder="Message" required></textarea>
+                    </div>
+                </form>
+                <input class="btn-1" type="submit" value="Send Message" />
+            </div>
+            <img class="font-20-r" src="/img/contact/img.png" alt="">
+        </div>
+    </section>
 </body>
 
 </html>
