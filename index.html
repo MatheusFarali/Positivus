@@ -431,11 +431,15 @@
         <div class="contact-form-bg bg-3">
             <div class="contact-form">
                 <form class="contact-form-selecion font-18-r">
-                    <input type="radio" id="say" name="opcion_contact" value="Say">
-                    <label for="html">Say Hi</label>
+                    <div class="contact-form-selecion-radio">
+                        <input type="radio" id="say" name="opcion_contact" value="Say">
+                        <label for="say">Say Hi</label>
+                    </div>
 
-                    <input type="radio" id="get" name="opcion_contact" value="Get">
-                    <label for="css">Get a Quote</label>
+                    <div class="contact-form-selecion-radio">
+                        <input type="radio" id="get" name="opcion_contact" value="Get">
+                        <label for="get">Get a Quote</label>
+                    </div>
                 </form>
                 <form class="contact-form-info">
                     <div>
@@ -456,6 +460,49 @@
             <img class="font-20-r" src="/img/contact/img.png" alt="">
         </div>
     </section>
+
+    <footer class="footer-container">
+        <div class="footer-nav">
+            <div class="footer-nav-titulo">
+                <img src="/img/footer/Icon.svg" alt="Logo">
+            </div>
+            <nav class="footer-nav-links cor-0 font-18-r">
+                <a href="#">About us</a>
+                <a href="#">Services</a>
+                <a href="#">Use Cases</a>
+                <a href="#">Pricing</a>
+                <a href="#">Blog</a>
+            </nav>
+            <div class="footer-nav-icones">
+                <a href="#">
+                    <img src="/img/footer/Social icon linkedin.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="/img/footer/Social icon facebook.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="/img/footer/Social icon twitter.svg" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="footer-conteudo">
+            <div class="footer-conteudo-1">
+                <h4 class="font-20-m">Contact us:</h4>
+                <p class="font-18-r">Email: info@positivus.com</p>
+                <p class="font-18-r">Phone: 555-567-8901</p>
+                <p class="font-18-r">Address: 1234 Main St <br>
+                    Moonstone City, Stardust State 12345</p>
+            </div>
+            <div class="footer-conteudo-2 font-20-r">
+                <input type="email" id="email1" pattern=".+@example\.com" placeholder="Email" required />
+                <button for="email1" type="button">Subscribe to news</button>
+            </div>
+            <div class="footer-conteudo-3 font-18-r">
+                <span>© 2023 Positivus. All Rights Reserved.</span>
+                <span>Privacy Policy</span>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

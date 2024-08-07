@@ -1,23 +1,35 @@
 .btn-1 {
+  font-family: "Space Grotesk", sans-serif;
   color: var(--cor-0);
   background-color: var(--cor-3);
   padding: 1.25rem 2.1875rem;
   border-radius: 0.875rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.625rem;
 }
 
 .btn-2 {
+  font-family: "Space Grotesk", sans-serif;
   color: var(--cor-1);
   background-color: var(--cor-2);
   padding: 1.25rem 2.1875rem;
   border-radius: 0.875rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.625rem;
 }
 
 .btn-3 {
+  font-family: "Space Grotesk", sans-serif;
   color: var(--cor-1);
   background-color: rgba(0, 255, 0, 0);
   border: 0.0625rem solid var(--cor-3);
   padding: 1.25rem 2.1875rem;
   border-radius: 0.875rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.625rem;
 }
 
 .link {
